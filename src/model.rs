@@ -1,7 +1,7 @@
 use crate::keys::{key_pressed, key_released};
 use crate::view;
 use crate::window::window_resized;
-use nannou::prelude::{Rect, App, LoopMode, Draw, Vec2};
+use nannou::prelude::{App, Draw, LoopMode, Rect, Vec2};
 use std::f32::consts::FRAC_PI_4 as QUARTER_PI;
 
 pub struct Model {
